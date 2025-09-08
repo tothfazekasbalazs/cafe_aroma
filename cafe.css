@@ -42,10 +42,17 @@ h1, h2, h4 {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    width: 50%;
+    height: 25%;
+    float: right;
 }
 
 span {
     font-weight: bold;
+}
+
+.urlap {
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px;
 }

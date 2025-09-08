@@ -38,7 +38,7 @@
         <article class="p-3">
             <h2 class="my-4">Üdvözöljük a Café Aromában!</h2>
             <div class="d-flex">
-                <div class="col-6 text-justify">
+                <div class="text-justify m-3">
                     <p>Üdvözöljük a Café Aromában, Szeged szívében található egyedülálló kávézónkban, ahol a kávézás
                         élményét új szintre emeljük. 2005 óta szolgáljuk ki a kávé szerelmeseit, akik igazi minőségre és
                         különleges ízekre vágynak. Családias hangulatunkkal és barátságos kiszolgálásunkkal igyekszünk
@@ -123,26 +123,35 @@
                 </div>
             </div>
 
-            <!-- Elérhetőségek -->
-
+            <h2 id="menu" class="my-4">Elérhetőségek</h2>
 
             <div class="row">
-                <div>
-                    Üzemeltető: Horváth Anna
-                    Cím: 6720 Szeged, Kávé utca 1.
-                    Telefonszám: +36 20 555 1234
-                    Email: info@cafe-arroma.hu
+                <div class="col-6">
+                    <ul>
+                        <li>
+                            Üzemeltető: Horváth Anna
+                        </li>
+                        <li>
+                            Cím: 6720 Szeged, Kávé utca 1.
+                        </li>
+                        <li>
+                            Telefonszám: +36 20 555 1234
+                        </li>
+                        <li>
+                            Email: info@cafe-arroma.hu
+                        </li>
+                    </ul>
                 </div>
                 <!-- Üzenetküldő űrlap -->
-                <div>
-                    <form>
+                <div class="col-6 float-right ">
+                    <form class="urlap">
                         <div class="form-group">
                             <label for="name">Név:</label>
-                            <input type="text" id="name" required>
+                            <input class="form-control" type="text" id="name" required>
                         </div>
                         <div class="form-group">
                             <label for="message">Üzenet:</label>
-                            <textarea id="message" rows="3" required></textarea>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Küldés</button>
                     </form>
