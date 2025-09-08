@@ -43,8 +43,6 @@ h1, h2, h4 {
 
 img {
     width: 50%;
-    height: 25%;
-    float: right;
 }
 
 span {
@@ -65,3 +63,7 @@ footer a {
     color: brown;
 }
 
+iframe {
+    height: 400px; 
+    width: 100%;
+}
