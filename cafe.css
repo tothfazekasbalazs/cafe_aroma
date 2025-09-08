@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    height: 300px; 
+    color: white; 
+    display: flex;
+    background-size: cover;  
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    background-color: #563d28;
+}
+
+article {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 10px 0;
+}
+
+h1, h2, h4 {
+    color: #6f4e37;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
